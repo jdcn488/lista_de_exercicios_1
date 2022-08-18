@@ -1,0 +1,7 @@
+preco = int(input('digite o preço:'))
+parcela3x = float((preco + preco * 0.05)/3)
+parcela2x = float(preco/2)
+parcela1x = float(preco - preco * 0.05)
+print("Parcelado em 3 vezes fica em " + str(parcela3x))
+print("Parcelado em 2 vezes fica em " + str(parcela2x))
+print("Parcelado em 1 vezes fica em " + str(parcela1x))
